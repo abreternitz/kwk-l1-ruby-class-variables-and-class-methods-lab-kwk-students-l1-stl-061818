@@ -10,4 +10,4 @@ class Song
 end
 
 jon_song = Song.new("Hippity Hoppity","Jon Mendez","Jon's Way")
-puts jon_song.name
+puts Song.count
