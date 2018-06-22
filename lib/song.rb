@@ -8,10 +8,11 @@ class Song
     @artist=artist
     @@count=@@count + 1
   end
-  def count
+  def self.count
     @@count
   end
 end
 
 jon_song = Song.new("Hippity Hoppity","Jon Mendez","Jon's Way")
+
 puts Song.count
