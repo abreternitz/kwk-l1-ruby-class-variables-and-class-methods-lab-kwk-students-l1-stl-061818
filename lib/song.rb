@@ -8,6 +8,7 @@ class Song
     @genre
     @artist
     @name
+  end
   def genre_of_album
     @genre
   end
