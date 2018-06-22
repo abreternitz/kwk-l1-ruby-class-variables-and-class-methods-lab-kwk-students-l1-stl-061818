@@ -16,4 +16,4 @@ class Song
 end
 
 jon_song = Song.new("Hippity Hoppity","Jon Mendez","Jon's Way")
-puts jon_song.genre
+puts jon_song.genre_of_album
